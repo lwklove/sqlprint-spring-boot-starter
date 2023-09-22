@@ -6,12 +6,12 @@
 
   <groupId>com.liuweikang</groupId>
   <artifactId>sqlprint-spring-boot-starter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
 
   <name>sqlprint-spring-boot-starter</name>
-  <description>使mybatis支持输出可执行的SQL</description>
-  <url>http://www.liuweikang.com</url>
+  <description>使mybatis/mybatis-plus支持输出可执行的SQL</description>
+  <url>https://www.liuweikang.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -44,6 +44,19 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.30</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-log4j2</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>2.0.21</version>
     </dependency>
   </dependencies>
 

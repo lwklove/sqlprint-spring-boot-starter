@@ -28,7 +28,7 @@ public class SqlCostInterceptorAutoConfigurationByMybatis {
     @Resource
     private SqlCostInterceptorProperties properties;
 
-    @Autowired
+    @Resource
     private List<SqlSessionFactory> sqlSessionFactoryList;
 
     public SqlCostInterceptorAutoConfigurationByMybatis() {

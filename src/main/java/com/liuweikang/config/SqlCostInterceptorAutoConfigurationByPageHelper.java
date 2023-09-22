@@ -28,7 +28,7 @@ public class SqlCostInterceptorAutoConfigurationByPageHelper {
     @Resource
     private SqlCostInterceptorProperties properties;
 
-    @Autowired
+    @Resource
     private List<SqlSessionFactory> sqlSessionFactoryList;
 
     public SqlCostInterceptorAutoConfigurationByPageHelper() {
